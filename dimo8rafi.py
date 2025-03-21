@@ -12,7 +12,7 @@ window = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Shotgun Game")
 
 # Set up the background
-background_image = pygame.image.load(r"C:\Users\LENOVO\Pictures\Screenshots\Screenshot 2023-05-23 024239.png").convert_alpha()
+background_image = pygame.image.load(r"C:\Us39.png").convert_alpha()
 background_image = pygame.transform.scale(background_image, (width, height))
 
 # Set up the player
@@ -23,16 +23,16 @@ player_x = width // 2 - player_size // 2
 player_y = height - player_size
 
 # Set up the shotgun
-shotgun_image = pygame.image.load(r"C:\Users\LENOVO\Downloads\a78f2b67b61f4d97923f0048a0b2bf16-removebg-preview.png").convert_alpha()
+shotgun_image = pygame.image.load(r"C:\Usw.png").convert_alpha()
 shotgun_image = pygame.transform.scale(shotgun_image, (100, 100))
 shotgun_offset_x = 30
 shotgun_offset_y = 70
 
 # Set up the target
 target_size = 150
-target_image = pygame.image.load(r"C:\Users\LENOVO\Downloads\0_Friend-of-TikTok-suicide-livestream-blasts-Facebook-for-first-sharing-video-removebg-preview.png").convert_alpha()
+target_image = pygame.image.load(r"C:\Usg-w.png").convert_alpha()
 target_image = pygame.transform.scale(target_image, (target_size, target_size))
-target_hit_image = pygame.image.load(r"C:\Users\LENOVO\Downloads\16407298966_83d86befaa_z-removebg-preview.png").convert_alpha()
+target_hit_image = pygame.image.load(r"C:\Usew.png").convert_alpha()
 target_hit_image = pygame.transform.scale(target_hit_image, (target_size, target_size))
 target_x = random.randint(0, width - target_size)
 target_y = random.randint(0, height - target_size)
@@ -45,10 +45,10 @@ score = 0
 font = pygame.font.Font(None, 36)
 
 # Load the success sound
-success_sound = pygame.mixer.Sound(r"C:\Users\LENOVO\Downloads\https___bestringtones.net_music_Samsung-s10-original-ringtone.wav")
+success_sound = pygame.mixer.Sound(r"C:ngtone.wav")
 
 # Load the clicking sound
-clicking_sound = pygame.mixer.Sound(r"C:\Users\LENOVO\Downloads\ShotgunSnglShotFi PE1108213.wav")
+clicking_sound = pygame.mixer.Sound(r"C:\Uwav")
 
 # Set up reset button
 reset_button = pygame.Rect(650, 10, 120, 40)
